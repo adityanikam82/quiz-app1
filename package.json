@@ -1,14 +1,16 @@
 {
-  "name": "my-project",
+  "name": "vite-aws-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build"
   },
   "devDependencies": {
     "vite": "^5.0.8"
-  }
+  },
+  "dependencies": {}
 }
